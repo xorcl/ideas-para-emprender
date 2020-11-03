@@ -819,7 +819,6 @@ h2 {
   display: inline-block;
   color: #fff;
   margin-right: 5px;
-  width: 35px;
   line-height: 35px;
   font-size: 20px;
   text-align: center;
@@ -827,6 +826,10 @@ h2 {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
+}
+
+.social a img {
+  height: 50px;
 }
 
 .social .facebook:hover {
